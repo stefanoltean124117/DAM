@@ -10,8 +10,7 @@
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="407
-        dp"
+        android:layout_width="407dp"
         android:layout_height="83dp"
         android:background="#0407A5"
         android:backgroundTintMode="src_over"
