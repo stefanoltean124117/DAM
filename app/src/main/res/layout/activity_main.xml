@@ -24,7 +24,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="407dp"
+        android:layout_width="408dp"
         android:layout_height="83dp"
         android:background="#01239F"
         android:text="COUNT"
