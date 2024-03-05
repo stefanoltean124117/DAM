@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentcap3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#BFB8B8"
+            android:text="Chapter 3: The Trials"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:text="     At long last, after countless trials and tribulations, Elara reached the heart of the enchanted forest. There, amidst a grove of ancient trees bathed in ethereal moonlight, she encountered the guardian of the crystal orb – a majestic unicorn with a coat as white as snow and eyes as wise as the stars."
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="400dp"
+            android:layout_height="174dp"
+            android:text="     The unicorn revealed to Elara the true nature of the crystal orb – a powerful artifact forged by ancient sorcery to protect the balance of the forest and safeguard its magic from falling into the wrong hands. But the orb had been stolen by a dark sorcerer intent on wielding its power for his own nefarious purposes."
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:text="     With the fate of the forest hanging in the balance, Elara knew that she must confront the sorcerer and reclaim the crystal orb before it was too late. Armed with courage and determination, she set out on her final quest to vanquish the darkness and restore harmony to the enchanted woods."
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</FrameLayout>

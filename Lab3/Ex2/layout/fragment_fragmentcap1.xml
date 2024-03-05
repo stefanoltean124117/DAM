@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentcap1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#BFB8B8"
+            android:text="Chapter 1:The Discovery"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="724dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:text="     Once upon a time, in a quaint village nestled at the edge of a dense forest, lived a young girl named Elara. Elara was adventurous and curious, always yearning for excitement beyond the confines of her small village. "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:text="      One sunny morning, while exploring the outskirts of the forest, she stumbled upon a hidden path obscured by overgrown bushes and twisted vines."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="343dp"
+                android:text="      Intrigued by the mysterious pathway, Elara hesitated for only a moment before plunging into the depths of the forest. As she ventured deeper, the trees grew taller and the air grew thicker with enchantment. Shafts of sunlight danced through the dense canopy, casting magical patterns on the forest floor."
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

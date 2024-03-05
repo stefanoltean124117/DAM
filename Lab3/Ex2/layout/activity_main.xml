@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151414"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="The Enchanted Forest"
+        android:textAlignment="center"
+        android:textColor="#F6F4F4"
+        android:textSize="60sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="394dp"
+        android:layout_marginBottom="56dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/f6375994_98f4_45c5_a827_f3e4135b04cd" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="410dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="4dp"
+        android:text="                                                by ChatGPT"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="465dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:background="#6750A3"
+        android:backgroundTint="#EDE5E5"
+        android:backgroundTintMode="screen"
+        android:text="Start Reading"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#E1D0D0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

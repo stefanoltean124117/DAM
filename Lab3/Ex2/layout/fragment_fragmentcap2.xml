@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentcap2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#BFB8B8"
+            android:text="Chapter 2: The Quest"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text="      Entranced by the radiant glow of the crystal orb, Elara reached out to touch it, but before her fingers could make contact, the orb vanished in a burst of light. Confused and determined, Elara knew that her destiny was intertwined with the magic of the forest. With unwavering resolve, she embarked on a quest to unravel the secrets of the enchanted woods.TextView"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:text="      Guided by whispers of ancient legends and forgotten lore, Elara journeyed deep into the heart of the forest, facing challenges and obstacles along the way. She encountered mischievous sprites, wise old owls, and elusive woodland creatures, each offering cryptic clues and riddles to aid her on her quest."
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:text="      As days turned into weeks and weeks turned into months, Elara's determination never wavered. She traversed treacherous ravines, scaled towering cliffs, and braved raging rivers, all in pursuit of the elusive crystal orb and the mysteries it held."
+            android:textSize="18dp" />
+
+    </LinearLayout>
+</FrameLayout>

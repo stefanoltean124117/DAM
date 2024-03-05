@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentcap4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:background="#BFB8B8"
+            android:text="Chapter 4: The Triumph"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:text="     After a perilous journey fraught with danger and uncertainty, Elara finally confronted the dark sorcerer in his hidden lair at the heart of the forest. With the help of the unicorn and her newfound allies, she engaged in a fierce battle against the forces of darkness, wielding the magic of the crystal orb against her foes."
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:text="     In the end, it was Elara's bravery, compassion, and unwavering spirit that emerged victorious. With a final burst of light, the darkness was banished, and the crystal orb returned to its rightful place, restoring balance and harmony to the enchanted forest once more."
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:text="     As the sun set on the horizon, casting a warm glow over the tranquil woods, Elara knew that her journey was far from over. But with the magic of the forest by her side and the lessons learned from her quest, she was ready to face whatever adventures lay ahead, knowing that she would always be guided by the spirit of the enchanted forest.    "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="The End."
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</FrameLayout>
